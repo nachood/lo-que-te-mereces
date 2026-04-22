@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para mi batucca</title>
+  <link rel="icon" type="image/png" href="glossyheart.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sparkles" aria-hidden="true"></div>
+  <div class="floating-hearts" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="decor-layer" aria-hidden="true">
+    <img class="decor-bow decor-bow-left" src="Pink_Bow_Transparent_PNG_Clipart.png" alt="">
+    <img class="decor-bow decor-bow-right" src="Pink_Bow_Transparent_PNG_Clipart.png" alt="">
+    <img class="decor-heart decor-heart-one" src="glossyheart.png" alt="">
+    <img class="decor-heart decor-heart-two" src="glossyheart.png" alt="">
+    <img class="decor-kitty" src="Hello-Kitty-PNG-Cutout.png" alt="">
+    <img class="decor-sabrina decor-sabrina-one" src="sabrina.png" alt="">
+    <img class="decor-sabrina decor-sabrina-two" src="sabrina2.png" alt="">
+  </div>
+
+  <header class="hero">
+    <p class="hero-kicker">Una cartita para vos</p>
+    <h1>Incluso en nuestros peores dias, siempre voy a seguir amandote y elegirte a vs mi batucca.</h1>
+    <p class="hero-note">Nuestro amor no se rompe cuando duele: aprende, se acomoda y vuelve a abrazarse.</p>
+    <a class="scroll-link" href="#carta">Bajá para abrir la carta</a>
+  </header>
+
+  <main>
+    <section class="letter-section reveal" id="carta">
+      <p class="section-label">Carta</p>
+      <div class="envelope-wrapper">
+        <button class="envelope" type="button" id="openLetter" aria-expanded="false" aria-controls="letterMessage">
+          <span class="envelope-top"></span>
+          <span class="envelope-heart">💌</span>
+          <span class="envelope-front"></span>
+          <span class="envelope-text">Tocá para abrir</span>
+        </button>
+        <article class="letter-message" id="letterMessage">
+          <p>
+            Se que no la pasamos bien esta semana pero vimos muchas cosas que nos ayudará a mejorar a futuro, por que asi somos, 2 personas que nos ayudamos a mejorar siempre y que nunca estamos solos mor. T amo
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="love-section reveal" id="amo">
+      <p class="section-label">Lo que amo de nosotros</p>
+      <div class="cards">
+        <article class="love-card">
+          <span class="card-icon">🎀</span>
+          <p>Siempre encontramos la forma de resolver las cosas.</p>
+        </article>
+        <article class="love-card">
+          <span class="card-icon">✨</span>
+          <p>Hasta en momentos asi aprendemos algo.</p>
+        </article>
+        <article class="love-card">
+          <span class="card-icon">💗</span>
+          <p>Por sobre todo, lo que mas amo es que no somos perfectos pero lo nuestro si es genuino y real.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="promise-section reveal" id="promesa">
+      <p class="section-label">Promesa</p>
+      <div class="promise-polaroid">
+        <div class="polaroid-pin" aria-hidden="true"></div>
+        <div class="polaroid-frame">
+          <img class="polaroid-overlay" src="polaroid.png" alt="">
+          <div class="polaroid-photo">
+            <img src="sabrina2.png" alt="Decoracion inspirada en Sabrina">
+          </div>
+        </div>
+        <div class="polaroid-caption">
+          <p>Quiero que nunca vuelvas a sentirte sola estando conmigo y te prometo que no voy a dejarte sentir asi.</p>
+        </div>
+      </div>
+      <p class="promise-signature">Siempre tuyo</p>
+    </section>
+
+    <section class="secret-section reveal" id="final">
+      <div class="emoji-burst" id="emojiBurst" aria-hidden="true"></div>
+      <button class="secret-button" type="button" id="secretButton" aria-expanded="false" aria-controls="secretMessage">
+        Abri esto si sos curiosa
+      </button>
+      <p class="secret-message" id="secretMessage">sos toda mia, mi batucca preshosha</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
